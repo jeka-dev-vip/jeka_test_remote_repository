@@ -1,24 +1,24 @@
-# Файлы кэша эскизов Windows
+# Windows thumbnail cache files
 Thumbs.db
-Thumbs.db: зашифровано
+Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
-# Файл дампа
-* .стекдамп
+# Dump file
+*.stackdump
 
-# Конфигурационный файл папки
-[ дд ] esktop.ini
+# Folder config file
+[Dd]esktop.ini
 
-# Корзина, используемая в файловых ресурсах
-$РЕЦИКЛ.БИН /
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# файлы установщика Windows
-* .cab
-* .msi
-* .msix
-* .msm
-* .MSP
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# Ярлыки Windows
-* .lnk
+# Windows shortcuts
+*.lnk
