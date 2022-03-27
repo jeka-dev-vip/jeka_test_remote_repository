@@ -1,9 +1,24 @@
-# For projects that use the Waf build system: https://waf.io/
-# Dot-hidden on Unix-like systems
-.waf-*-*/
-.waf3-*-*/
-# Hidden directory on Windows (no dot)
-waf-*-*/
-waf3-*-*/
-# Lockfile
-.lock-waf_*_build
+# Файлы кэша эскизов Windows
+Thumbs.db
+Thumbs.db: зашифровано
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файл дампа
+* .стекдамп
+
+# Конфигурационный файл папки
+[ дд ] esktop.ini
+
+# Корзина, используемая в файловых ресурсах
+$РЕЦИКЛ.БИН /
+
+# файлы установщика Windows
+* .cab
+* .msi
+* .msix
+* .msm
+* .MSP
+
+# Ярлыки Windows
+* .lnk
